@@ -1,8 +1,29 @@
 {
-  "name": "json-translator",
+  "name": "json-i18n-translator",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "description": "Open-source tool to translate JSON i18n files into multiple languages",
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "json",
+    "translator",
+    "translation",
+    "angular",
+    "ionic",
+    "multilingual",
+    "language",
+    "localization"
+  ],
+  "author": "frontenddev81",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frontenddev81/json-i18n.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frontenddev81/json-i18n/issues"
+  },
+  "homepage": "https://github.com/frontenddev81/json-i18n#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,7 +32,7 @@
     "test": "ng test",
     "lint": "ng lint"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^20.0.0",
     "@angular/common": "^20.0.0",
@@ -59,6 +80,5 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.8.0"
-  },
-  "description": "An Ionic project"
+  }
 }
